@@ -1,12 +1,41 @@
-# React + Vite
+🕹️ Assembly: Endgame
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Assembly: Endgame 
+Juego interactivo tipo "Ahorcado", donde debes adivinar una palabra secreta en menos de 8 intentos.
+Cada intento fallido elimina un lenguaje de programación del mundo… ¡hasta que solo quede Ensamblador! 😱
 
-Currently, two official plugins are available:
+🎮 Juego clásico de adivinanza de letras.
+🌐 Ambientado con temática de lenguajes de programación.
+🌈 Efectos visuales de celebración al ganar.
+🧠 Soporte accesible con aria-live y mensajes dinámicos.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Tecnologías usadas
+🌐 HTML
+🎨 CSS
+💛 JavaScript
+💠 React
+⚡ Vite
+🎉 react-confetti
+📏 react-use
+🧠 clsx
 
-## Expanding the ESLint configuration
+🛠️ Instalación
+  # Clona el repositorio
+    git clone https://github.com/SaulDa02/Assembly-Endgame.git
+    cd assembly-endgame
+  
+  # Instala dependencias
+    npm install
+  
+  # Inicia el proyecto
+    np m run dev
+    
+🧠 Cómo se juega
+1. Aparecerá una palabra oculta.
+2. Usa el teclado en pantalla para adivinar letras.
+3. Cada error elimina un lenguaje de programación.
+4. Acierta la palabra antes de que solo quede ensamblador para ganar.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Este proyecto fue ideado originalmente por Bob Ziroll como parte del curso "Learn React" en la plataforma educativa Scrimba.
+La versión actual ha sido adaptada al español e incluye modificaciones visuales y de contenido con fines educativos.
+Puedes usar y compartir esta adaptación respetando los derechos del autor original.
